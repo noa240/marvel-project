@@ -1,0 +1,9 @@
+#about{
+    width: 100vw;
+    height: 70%;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    color: white;
+}

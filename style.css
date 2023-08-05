@@ -7,10 +7,9 @@ body{
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
     grid-template-areas:
     "header header header header" 
+    "main main main main"
     "main main main main"
     "main main main main"
     "main main main main"
@@ -30,11 +29,11 @@ body{
 
 }
 button{
-     width: 10%;
-     height: 40%;
+     width: 10vw;
+     height: 10vh;
      margin-top: 2%;
-     border: 2px #fff solid;
-     border-radius: 10%;
+     border: 3px #fff solid;
+     border-radius: 14%;
      background: rgb(166,47,0); 
 background: -moz-linear-gradient(top,  rgb(166,47,0) 0%, rgb(232,46,0) 23%, rgb(210,45,0) 71%, rgb(118, 37, 23) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  rgb(166,47,0) 0%,rgb(232,46,0) 23%,rgb(210,45,0) 71%,rgb(229, 226, 226) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -43,6 +42,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a62f00', end
 }
 .main{
     grid-area:main;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
 background: rgb(166,47,0); 
 background: -moz-linear-gradient(top,  rgb(166,47,0) 0%, rgb(232,46,0) 23%, rgb(210,45,0) 71%, rgb(118, 37, 23) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  rgb(166,47,0) 0%,rgb(232,46,0) 23%,rgb(210,45,0) 71%,rgb(229, 226, 226) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -52,4 +54,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a62f00', end
 .footer{
     grid-area: footer;
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
 }
+
+@keyframes slider{
+    0% {background-image:url(avengers.jpg);}
+    10% {background-image: url(black\ widow.jpg);}
+    20%{background-image: url(captainamerica.jpg);}
+    30%{background-image:url(ragnarok.jpg);}
+    40%{background-image:url(shang-chi.jpg);}
+    50%{background-image: url(spiderman.jpg);}
+    60%{background-image: url(thor.jpg);}
+    70%{background-image: url(drstrange.jpg);}
+    80%{background-image: url(wandavision.jpg);}
+    90%{background-image: url(antman.jpg);}
+    100%{background-image: url(avengers.jpg);}
+
+}
+
+
+
+
+

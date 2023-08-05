@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+        padding-top: 2%;
+        height: 150vh;
+    background: rgb(166,47,0); 
+    background: -moz-linear-gradient(top,  rgb(166,47,0) 0%, rgb(232,46,0) 23%, rgb(210,45,0) 71%, rgb(118, 37, 23) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgb(166,47,0) 0%,rgb(232,46,0) 23%,rgb(210,45,0) 71%,rgb(229, 226, 226) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgb(166,47,0) 0%,rgb(232,46,0) 23%,rgb(210,45,0) 71%,rgb(195, 117, 117) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a62f00', endColorstr='#ff6543',GradientType=0 ); /* IE6-9 */
+    }
+
+
+iframe{
+    margin: 2%;
+}

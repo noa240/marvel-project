@@ -1,0 +1,7 @@
+#slider{
+    width: 40%;
+    height: 90%;
+    border: 7px black solid;
+    border-radius: 10%;
+    animation: slider 30s infinite;
+}

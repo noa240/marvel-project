@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="home.css">
     <title>Document</title>
 </head>
 <body>
     <div class="container">
         <div class="header"><img src="Marvel_Logo.svg.png" alt="">
-          <button> <a href="index.html">Home Page</a></button>
-          <button> <a href="about.html">About Us</a></button>
-          <button> <a href="movies.html">Movies</a></button>
-          <button> <a href="video.html">Videos</a></button>
-          <button> <a href="contact.css">Contact Us</a></button>
+            <button> <a href="index.html">Home Page</a></button>
+            <button> <a href="about.html">About Us</a></button>
+            <button> <a href="movies.html">Movies</a></button>
+            <button> <a href="video.html">Videos</a></button>
+            <button> <a href="contact.css">Contact Us</a></button>
 
         </div>
         <div class="main"> 
-
-          <div id="slider"></div>
-
-
+            <form action="process.php" method="post">
+               <h1>Email</h1>
+                <input type="text" name="Email" placeholder="Enter your Email address">
+                 <h1>First name</h1>
+               <input type="text"  placeholder="Enter your first name">
+                <h1>Last name</h1></p>
+                <input type="text" name="Last name" placeholder="Enter your last name">
+                <h1>How can we help?</h1></p>
+             <textarea name="message" id="" cols="30" rows="10"></textarea>
+             <input type="submit" name="submit" value="submit">
+            </form>  
         </div>
         <div class="footer">
             <button><a href="https://github.com/noa240"><img src="Octicons-mark-github.svg.png" alt="link to my github" width="40"
@@ -31,6 +37,6 @@
                 <button><a href="https://noa240.github.io/Hotel-Transilvania/">Hotel-Transilvania</a></button>
                 <button><a href="https://noa240.github.io/Noa-Zelinger/">My website</a></button>
             </div>
-                    
+    
 </body>
 </html>
